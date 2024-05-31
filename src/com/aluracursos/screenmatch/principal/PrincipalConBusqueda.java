@@ -19,6 +19,8 @@ import java.util.Scanner;
 
 public class PrincipalConBusqueda {
     public static void main(String[] args) throws IOException, InterruptedException {
+        // CODIGO ALURA: https://github.com/alura-es-cursos/2047-screenmatch4/releases/tag/Aula4-Fin
+
         Scanner teclado = new Scanner(System.in);
         List<Titulo> titulos = new ArrayList<>();
         Gson gson = new GsonBuilder()
